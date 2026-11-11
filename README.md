@@ -19,9 +19,19 @@ Open PowerShell in the extracted ZIP folder. Pass the folder that contains `Tita
 .\Install-PMB.ps1 -RuntimeRoot 'C:\path\to\R1Delta\app-3.0.5' -GameRoot 'C:\path\to\Titanfall'
 ```
 
-Add `-CheckOnly` to check the files before installation. The installer checks the required versions and package files, saves replaced files to a backup folder, and reports its location. Restart R1Delta and enable **Powder, Metal & Bone** and **PMB - Continuous Radar** in the addon list. Select **Private Match → Paragon**.
+Add `-CheckOnly` to check the files before installation. The installer checks the required versions and package files, saves replaced files to a backup folder, and reports its location. Restart R1Delta and enable **POWDER METAL & BONE** and **PMB.Continuous_Radar** in the Addons menu. Select **Private Match → Paragon**.
 
 Use the same PMB and dependency versions on the host and each player's PC. This is a multiplayer preview. A full match with a remote second player still needs testing. Pilot Bots requires a player-hosted match.
+
+## Paragon pilot kits
+
+Both pilot kit slots share one pool. Choose two different kits, or leave Kit 2 empty.
+
+- Enhanced Parkour adds 13% pilot movement speed and retains the longer wallruns and wallhangs.
+- Quick Aim reduces the time to aim down sights by 20%.
+- Minion Detector displays friendly and enemy Grunts and Spectres on your minimap while equipped.
+
+Existing preview installs can run the same installer to update. If you use Katie's Reticle Mod, apply the updated optional compatibility ZIP too.
 
 ## Credits
 
